@@ -166,7 +166,6 @@ public class UserServlet extends HttpServlet {
                 else {
                     edit = false;
                     us.update(user);
-                    //action = "edit";
                     response.sendRedirect("/users");
                 }
             } catch (Exception ex) {

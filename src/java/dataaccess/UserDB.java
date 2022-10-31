@@ -8,6 +8,7 @@ import java.util.List;
 import models.Role;
 import models.User;
 
+
 public class UserDB {
 
     public List<User> getAll() throws Exception {
